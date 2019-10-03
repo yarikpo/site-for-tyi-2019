@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+
+    /*background-image: url("../../images/background.png");*/
+}
+
+#logo {
+    display: block;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-top: 1px solid rgb(236, 236, 236);
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+a {
+    margin-right: 45px;
+    text-decoration: none;
+}
+
+/*a:hover {
+    text-decoration: none;
+    text-decoration-color: #343434;
+}*/
+
+header > a > span:not(:hover) {
+    transition: 0.2s;
+
+    color: #343434;
+    text-decoration-style: 'Relaway';
+    text-decoration: none;
+
+}
+
+header > a > span:hover {
+    transition: 0.2s;
+
+    color: rgb(200, 200, 200);
+    text-decoration-style: 'Relaway';
+    text-decoration: none;
+
+}
+
+#content {
+    display: block;
+    /*margin-left: 10%;
+    margin-right: 10%;*/
+    text-align: center;
+    margin-top: 40px;
+    /*background-color: rgba(58, 59, 238, 0.53);*/
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 40px;
+}
+
+
+input {
+    /*background-color: rgb(114, 131, 20);*/
+    /*width: 10px;*/
+    font-size: 4rem;
+    font-family: 'Raleway', sans-serif;
+
+
+    width: 25%;
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    /*margin-left: 47%;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    text-align: center;
+
+    /*background-image: linear-gradient(to right, rgb(210, 34, 43), rgb(205, 27, 79));*/
+    /*border: 1px, solid, rgb(1, 49, 75);*/
+    border-width: 2px;
+    /*border-style: solid;
+    border-color: rgb(215, 191, 164);
+
+    color: rgb(222, 233, 222);*/
+}
+
+input:not(:hover) {
+    transition: 0.3s;
+    background-color: rgb(210, 34, 43);
+    /*border: 1px, solid, rgb(1, 49, 75);*/
+
+    border-style: solid;
+    border-color: rgb(236, 236, 236);
+
+    color: rgb(222, 233, 222);
+}
+
+input:hover {
+    transition: 0.3s;
+    background-color: rgb(195, 47, 61);
+    /*border: 1px, solid, rgb(1, 49, 75);*/
+    border-width: 2px;
+    border-style: double;
+    border-color: rgb(215, 191, 164);
+
+    color: rgb(222, 233, 222);
+
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+input:active {
+    background-color: rgb(83, 36, 163);
+    outline: none;
+}
+
+#file {
+    opacity: 0;
+    width: 0.00001px;
+    height: 0.00001px;
+    overflow: hidden;
+}
+
+label > span {
+    display: inline-block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, rgb(210, 34, 43), rgb(205, 27, 79));
+    color: rgb(222, 233, 222);
+}
+
+/*////////*/
+
+/*.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: red;
+}
+
+
+.inputfile:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}*/
+
+
+#result > img {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+#bottom {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    /*width: 100%;*/
+    /*height: 20px;*/
+    /*background-color: rgb(241, 241, 241);*/
+    border-top: 1px solid rgb(236, 236, 236);
+    border-bottom: 1px solid rgb(236, 236, 236);
+
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
